@@ -4,13 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assainment03-repo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body>
-    <header>
-
+<body class="">
+    <header class="md:container mx-auto">
+        <nav class="flex flex-row justify-between ">
+           <div>
+            <img class="w-38 h-15 text-green-600 text-0.75rem" src="c2-assets/logo-header.png" alt="">
+           </div> 
+           <div>
+            <ul class="w-111 h-25 text-black text-1.25rem flex gap-6">
+                <li>Product</li>
+                <li>Services</li>
+                <li>Contact us</li>
+            </ul>
+           </div>
+           <div class="flex gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+              </svg>
+              <button class="btn w-275 h-45">Login</button>
+              <button class="btn btn success  bg-green-600 w-275 h-45 text-white">Register</button>
+           </div>
+        </nav>
+        <section class="">
+            <div class="hero bg-base-200 min-h-screen">
+                <div class="hero-content flex-col lg:flex-row-reverse">
+                  <div class="text-center lg:text-left">
+                    <h4 class="text-5xl font-bold">Freshness<span class=" text-green-600">You Can</span>
+                       <br><span class="text-green-600">Count</span> On, Prices You’ll Love!</h4>
+                    <p class="py-6">
+                        Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!   
+                    </p>
+                  </div>
+                  <div class="w-full max-w-sm">
+                <img src="c2-assets/hero-vegetables.png" alt="">
+                </div>
+              </div>
+            </div>
+        </section>
+            <h1 class="text-green-700 w-39.75 h-11.25 ">Services</h1>
+            <section class="flex gap-4 justify-center">
+            <div class="card w-96 h-91.75 bg-[#EFEBE3]">
+                <figure class="px-10 pt-10">
+                  <img src="c2-assets/service.png" alt="">
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title w-40 h-8 ">24/7 Services </h2>
+                  <p class="w-96 h-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+              </div>
+              <div class="card w-96 h-91.75 bg-[#EFEBE3]">
+                <figure class="px-10 pt-10">
+                  <img src="c2-assets/delivery.png" alt="">
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title w-40 h-8">Fast Delivery</h2>
+                  <p  class="w-96 h-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+              </div>
+              <div class="card w-96 h-91.75 bg-[#EFEBE3]">
+                <figure class="px-10 pt-10">
+                  <img src="c2-assets/healthy.png" alt="">
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title w-40 h-8">Healthy Products </h2>
+                  <p  class="w-96 h-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+              </div>
+          </section> 
     </header>
-    <main>
-
+    <main class="flex justify-center gap-8 mt-10 mx-auto ">
+      <h2 class="text-green-800">Arrival & Offers</h2>
+      <section class="w-195 h-86 bg-[#115414] flex">
+      <div class="">
+        <img class="w-60 h-16" src="c2-assets/dawat-logo.png" alt="">
+        <button class="btn btn-wide text-white bg-green-600 w-64 h-9">Cook Exotic Dishes</button>
+        <h1 class="w-80 h-12  text-white">UP to 20% OFF</h1>
+      </div>
+      <div>
+        <img class="w-88 h-77" src="c2-assets/dawat-mock-up.png" alt="">
+      </div>
+    </section>
+    <section class="w-130 h-86 bg-[#102861] flex">
+      <div>
+      <img class="w-24.5 h-31.75" src="c2-assets/india-gate-logo.png" alt="">
+      <button class="btn btn-wide text-white bg-[#2A4D97] w-56.75 h-8.75">Cook Exotic Dishes</button>
+      <h1 class="w-72.5 h-12.5  text-white">UP to 20% OFF</h1>
+    </div>
+    <div>
+      <img class="w-43.75 h-71.75" src="c2-assets/india-gate-mock-up.png" alt="">
+    </div>
+    </section>
     </main>
     <footer>
         
